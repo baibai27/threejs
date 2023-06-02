@@ -7,7 +7,7 @@ const AIPicker = ({ prompt, setPrompt, generatingImg, handleSubmit }) => {
       <textarea
         cols="30"
         rows="5"
-        className="aipicker-textarea"
+        className="aipicker-textarea placeholder-gray-800"
         placeholder="Give your prompts to AI..."
         value={prompt}
         onChange={(e) => setPrompt(e.target.value)}
